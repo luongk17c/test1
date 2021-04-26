@@ -1,0 +1,596 @@
+/*#contact: #222222
+#contact-icon-color: #0ca8c9
+#contact-text-color: #878787
+*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Poppins', sans-serif;
+}
+/*-------contact-------*/
+.container{
+    max-width: 1920px;
+    padding-left: 390px;
+    padding-right: 390px;
+}
+.contact{
+    height: 70px;
+    background-color: #222;
+    position: relative;
+}
+.row{
+    display: flex;
+    align-items: center;
+}
+.contact .col-4{
+    max-width: 350px;
+    justify-content: space-between;
+    margin: 0 20px;
+}
+.lang{
+    position: absolute;
+    right: 390px;
+    top: 25px;
+}
+.lang img{
+    position: absolute;
+    top: 3px;
+    right: 95px;
+}
+.contact select{
+    background-color: #222;
+    border: none;
+    color: #878787;
+}
+.contact i{
+    border: 1px solid #0ca8c9 ;
+    padding: 5px;
+    position: absolute;
+    top: 20px;
+    color: #0ca8c9;
+}
+.contact .text{
+    margin-left: 33px;
+    margin-top: 20px;
+}
+.contact h4{
+    font-size: 12px;
+    color: #878787;
+}
+.contact p{
+    font-size: 13px;
+    color: #fff;
+}
+/*-------logo + search-------*/
+.search .row{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    height: 100px;
+    position: relative;
+}
+.col-3{
+    margin-left: 20px;
+}
+.search .cart-circle{
+    border-radius: 50%;
+    border: 1px solid #0ca8c9;
+    font-size: 9px;
+    padding: 1px 5px;
+    width: 15px;
+    height: 15px;
+    background-color: #222;
+    color: #fff;
+    position: absolute;
+    top: 30px;
+    right: -4px;
+}
+.search .cart{
+    margin-left: 20px;
+}
+.search .fa-search{
+    color: #fff;
+    position: absolute;
+    top: 41px;
+    right: 118px;
+}
+.search input{
+    height: 40px;
+}
+.search-ip2{
+    width: 60px;
+    background-color: #0ca8c9;
+    border: none;
+    border-top-right-radius: 40px;
+    border-bottom-right-radius: 40px;
+}
+.search-cata{
+    position: absolute;
+    right: 150px;
+    width: 500px;
+    border-top-left-radius: 40px;
+    border-bottom-left-radius: 40px;
+    border: 1px solid #ebebeb;
+    color: #878787;
+}
+.logo{
+    position: absolute;
+    left: 10px;
+    top: 25px;
+}
+.fa-caret-down{
+    position: absolute;
+    top:42px;
+    left: 600px;
+    color: #878787;
+}
+/*------nav-bar-------*/
+.nav-bar{
+    position: relative;
+}
+.nav-bar .row{
+    justify-content: space-between;
+    background-color: #0ca8c9;
+    height: 50px;
+    padding-left: 400px;
+    padding-right: 390px;
+}
+.nav-bar img{
+    float: left;
+}
+.nav-bar h3{
+    margin-left: 40px;
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 14px;
+    padding-top: 3px;
+}
+.nav-bar ul{
+    display: flex;
+    list-style-type: none;
+}
+.nav-bar li{
+    margin-left: 50px;
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 14px;
+}
+.nav-bar a{
+    text-decoration: none;
+}
+.nav ul{
+    width: 230px;
+    flex-direction: column;
+    flex-wrap: wrap;
+    background-color: #fff;
+}
+.nav ul li{
+    float: left;
+    color: #0ca8c9;
+    margin: 15px 30px;
+    border-bottom: 1px solid #ebebeb;
+    text-decoration: none;
+    padding-bottom: 10px;
+}
+.sub-menu i{
+    position: absolute;
+    left: 200px;
+}
+.nav{
+    position: absolute;
+    top: 50px;
+    display: none;
+    overflow: hidden;
+}
+.nav-bar img,h3:hover nav{
+    display: block;
+    cursor: pointer;
+}
+
+/*----------banner-------------*/
+.banner{
+    position: relative;
+}
+.banner img{
+    width: 100%;
+}
+.banner .text{
+    position: absolute;
+    top: 230px;
+    left: 400px;
+    
+}
+.banner h1{
+    font-size: 60px;
+    line-height: 80px;
+}
+.banner span{
+    color: #0ca8c9;
+}
+.banner p{
+    color: #959596;
+    font-weight: bold;
+    padding-top: 30px;
+}
+.banner h4{
+    font-size: 16px;
+    width: 80px;
+    border-bottom: 2px solid #0ca8c9;
+    padding-top: 70px;
+    padding-bottom: 5px;
+}
+.banner h4:hover{
+    cursor: pointer;
+}
+/*---------paid-ship------------*/
+.paid-ship .row{
+    justify-content: space-between;
+    height: 165px;
+}
+.paid-ship img{
+    float: left;
+    padding-right: 20px;
+}
+.paid-ship .col-4{
+    max-width: 350px;
+    flex-basis: 30%;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+.paid-ship .text{
+    margin-left: 20px;
+}
+.paid-ship p{
+    color: #878787;
+    font-size: 14px;
+    padding-top: 5px;
+}
+.paid-ship h4{
+    color: #000;
+    font-size: 16px;;
+}
+/*------------ sale ---------------*/
+.sale{
+    position: relative;
+}
+.sale .row{
+    justify-content: space-between;
+}
+.sale-detail{
+    position: absolute;
+    top: 320px;
+    left: 550px;
+}
+.sale .counter{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+.sale .day{
+    background-color: #fff;
+    text-align: center;
+    padding: 10px;
+    width: 60px;
+    height: 60px;
+    margin: 5px;
+}
+.sale .sale1{
+    padding-right: 30px;
+}
+.sale .day h3{
+    font-size: 21px;
+    color: #0ca8c9;
+}
+.sale .day h4{
+    font-size: 12px;
+    text-transform: uppercase;
+    color: #000
+}
+.sale h2{
+    color: #000;
+    font-size: 30px;
+    text-transform: uppercase;
+    padding-top: 30px;
+    padding-bottom: 10px;
+}
+.sale p{
+    padding-left: 90px;
+    color: #878787;
+    font-weight: bold;
+}
+.sale span{
+    color: #0ca8c9;
+}
+.sale .detail{
+    background-color: #f0f0f0;
+    height: 240px;
+    margin-bottom: 30px;
+}
+.sale .sale2{
+    position: absolute;
+    top: 40px;
+    right: 420px;
+}
+.sale .detail h3{
+    color: #0ca8c9;
+    font-size: 60px;
+    padding-top: 60px;
+    padding-left: 20px;
+}
+.sale .detail h4{
+    color: #000;
+    font-size: 24px;
+    padding-left: 20px;
+    text-transform: uppercase;
+}
+.sale .detail p{
+    padding-top: 5px;
+    padding-left: 20px;
+    font-size: 19px;
+    font-weight: 100;
+}
+.sale .detail1{
+    position: absolute;
+    top: 358px;
+}
+.sale .detail1 h3{
+    font-size: 30px;
+    text-transform: uppercase;
+    padding-left: 20px;
+}
+.sale .detail1 p{
+    padding-left: 20px;
+    padding-top: 10px;
+    font-size: 19px;
+}
+/*-----------top selling -----------*/
+.top-selling{
+    position: relative;
+}
+.top-selling .row{
+    padding-top: 180px;
+    justify-content: space-between;
+}
+.top-selling .title{
+    position: absolute;
+    top: 60px;
+    width: 300px;
+}
+.title h1{
+    font-size: 85px;
+    text-transform: uppercase;
+    color: #878787;
+    opacity: 0.1;
+}
+.title h2{
+    position: absolute;
+    top: 30px;
+    font-size: 40px;
+    text-transform: uppercase;
+}
+.top-selling img{
+    margin-top: 50px;
+}
+.top-selling .col-4{
+    background-color: #f3f3f5;
+    width: 265px;
+    height: 260px;
+    text-align: center;
+    align-items: center;
+}
+.top-selling .text{
+    position: absolute;
+    top: 450px;
+    width: 14%;
+    line-height: 1.6em;
+}
+.top-selling .text p{
+    font-weight: bold;
+}
+.top-selling .text span{
+    color: #0ca8c9;
+}
+.row1 .text{
+    position: absolute;
+    top: 900px;
+}
+/*------------news ------------*/
+.news{
+    position: relative;
+    padding-top: 140px;;
+}
+.news .row{
+    background-color: #f3f3f5;
+    height: 665px;
+    width: 100%;
+    text-align: center;
+    justify-content: center;
+    padding-top: 120px;
+}
+.news .title{
+    position: absolute;
+    top: 225px;
+}
+.news .title h2{
+    padding-left: 90px;;
+}
+.news .col-3{
+    text-align: start;
+}
+.news .col-3 h3{
+    margin:  10px 0;
+    line-height: 1.4em;
+    font-size: 19px;
+}
+.news .col-3 p{
+    color: #878787;
+    font-size: 14px;
+    font-weight: 600;
+}
+.news .col-3 span{
+    color: #0ca8c9;
+}
+/*----------------banner1---------------*/
+.banner1{
+    position: relative;
+}
+.banner1 .row{
+    height: 400px;
+    background-color: #222;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+}
+.banner1 .text{
+    text-align: center;
+}
+.banner1 h1{
+    color: #fff;
+    font-size: 32px;
+}
+.banner1 p{
+    font-size: 14px;
+    color: #fff;
+    padding-top: 20px;
+    padding-bottom: 60px;
+    opacity: 0.5;
+}
+.banner1 input{
+    width: 770px;
+    height: 70px;
+    border-radius: 50px;
+    padding-left: 30px;
+    border: none;
+}
+.banner1 button{
+    position: absolute;
+    top: 237px;
+    right: 570px;
+    width: 170px;
+    height: 60px;
+    border-radius: 50px;
+    border: none;
+    background-color: #0ca8c9;
+    text-transform: uppercase;
+    color: #fff;
+    font-weight: bold;
+}
+/*--------------brand-----------------*/
+.brand{
+    position: relative;
+}
+.brand .row{
+    height: 230px;
+}
+/*----------------footer------------------*/
+/*--------------contact1---------------*/
+.contact1{
+    position: relative;
+    background-color: #f3f3f5;
+}
+.contact1 .row{
+    height: 315px;
+    justify-content: space-between;
+}
+.contact1 .col-4{
+    flex-basis: 24%;
+    flex-wrap: nowrap;
+}
+.contact1 h2{
+    font-size: 18px;
+    text-transform: uppercase;
+    position: absolute;
+    top: 60px
+}
+.contact1 p{
+    margin-bottom: 20px;
+    font-size: 13px;
+    font-weight: bold;
+    color: #878787;
+}
+.contact1 .text{
+    padding-top: 50px;
+}
+.contact1 i{
+    margin-right: 20px;
+    color: #0ca8c9;
+}
+.contact1 .social-icon{
+    margin-top: 40px;
+}
+.contact1 ul{
+    padding-top: 70px;
+}
+.contact1 li{
+    list-style-type: none;
+    margin-bottom: 20px;
+    font-size: 13px;
+    font-weight: bold;
+    color: #878787;
+}
+.contact1 .quicklink{
+    padding-top: 30px;
+}
+/*---------------copy-right-------------*/
+.copyright .row{
+    height: 70px;
+    justify-content: space-between;
+}
+.copyright p{
+    font-size: 13px;
+    color: #878787;
+}
+.copyright span{
+    color: #0ca8c9;
+}
+/*------------Responsive-----------*/
+@media only screen and (max-width: 480px){
+    .container{
+        width: 480px;
+        position: relative;
+    }
+    article .row{
+        flex-direction: column;
+    }
+    .contact .text{
+        display: none;
+    }
+    .search .logo{
+        position: absolute;
+        left: -130px;
+    }
+    .search input{
+        display: none;
+    }
+    .search .cart-circle{
+        display: none;
+    }
+    .search .setting-col{
+        display: none;
+    }
+    .search i{
+        display: none;
+    }
+    .sale .sale2{
+        display: none;
+    }
+    .banner img{
+        width: 210%;
+    }
+    .banner .text{
+        padding-bottom: 220px;
+    }
+    .banner h1{
+        font-size: 20px;
+    }
+    article img{
+
+    }
+}
